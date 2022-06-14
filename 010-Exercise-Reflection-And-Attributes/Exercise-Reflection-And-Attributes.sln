@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_001", "_001\_001.csproj", "{175BF19B-A920-4731-97E3-F7DA6D7F04D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_002", "_002\_002.csproj", "{4742D156-AFD2-4F1A-8402-4A8EE3946A07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{175BF19B-A920-4731-97E3-F7DA6D7F04D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175BF19B-A920-4731-97E3-F7DA6D7F04D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175BF19B-A920-4731-97E3-F7DA6D7F04D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175BF19B-A920-4731-97E3-F7DA6D7F04D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4742D156-AFD2-4F1A-8402-4A8EE3946A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4742D156-AFD2-4F1A-8402-4A8EE3946A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4742D156-AFD2-4F1A-8402-4A8EE3946A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4742D156-AFD2-4F1A-8402-4A8EE3946A07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿namespace _004;
+
+public static class StartUp
+{
+    private static void Main(string[] args)
+    {
+        try
+        {
+            var className = typeof(Hacker).FullName;
+            var result = Spy.StealFieldInfo(className);
+            Console.WriteLine(result);
+        }
+        catch (ArgumentNullException)
+        {
+            Console.WriteLine("Value cannot be null!");
+        }
+    }
+}
