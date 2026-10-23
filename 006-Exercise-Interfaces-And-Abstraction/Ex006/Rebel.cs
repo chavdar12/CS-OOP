@@ -2,8 +2,6 @@
 
 public class Rebel : IBuyer
 {
-    private string group;
-
     public Rebel(string name, int age, string group)
     {
         Name = name;

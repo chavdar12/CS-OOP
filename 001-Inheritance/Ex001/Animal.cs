@@ -2,7 +2,7 @@
 
 public class Animal
 {
-    public static void Eat()
+    public void Eat()
     {
         Console.WriteLine("eating...");
     }

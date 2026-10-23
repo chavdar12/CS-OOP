@@ -8,5 +8,5 @@ public class Car : Vehicle
     {
     }
 
-    protected override double FuelConsumption => DefaultFuelConsumption;
+    public override double FuelConsumption => DefaultFuelConsumption;
 }

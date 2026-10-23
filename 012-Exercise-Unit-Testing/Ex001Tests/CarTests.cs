@@ -5,13 +5,11 @@ namespace Ex001Tests;
 public class CarTests
 {
     private Car car;
-    private double fuelAmount;
 
     [SetUp]
     public void Setup()
     {
         car = new Car("Audi", "A3", 40, 100);
-        fuelAmount = 0;
     }
 
     [Test]

@@ -1,9 +1,9 @@
 ﻿using Ex003;
 
 var dog = new Dog();
-Animal.Eat();
-Dog.Bark();
+dog.Eat();
+dog.Bark();
 
 var cat = new Cat();
-Animal.Eat();
-Cat.Meow();
+cat.Eat();
+cat.Meow();

@@ -2,9 +2,6 @@
 
 public class Rectangle : IDrawable
 {
-    private int height;
-    private int width;
-
     public Rectangle(int width, int height)
     {
         Width = width;
@@ -17,7 +14,7 @@ public class Rectangle : IDrawable
     public void Draw()
     {
         DrawLine('*', '*');
-        for (var i = 1; i < Height - 2; i++) DrawLine('*', ' ');
+        for (var i = 1; i < Height - 1; i++) DrawLine('*', ' ');
         DrawLine('*', '*');
     }
 

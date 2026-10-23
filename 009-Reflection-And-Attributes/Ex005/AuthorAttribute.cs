@@ -8,5 +8,5 @@ public class AuthorAttribute : Attribute
         Name = name;
     }
 
-    private string Name { get; set; }
+    public string Name { get; }
 }

@@ -1,4 +1,4 @@
-﻿using Ex003;
+﻿namespace Ex003;
 
 public class StationaryPhone : ICalling
 {

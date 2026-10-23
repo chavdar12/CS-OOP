@@ -45,7 +45,7 @@ public class ExtendedDatabase
 
     public Person FindByUsername(string name)
     {
-        if (string.IsNullOrEmpty(name)) throw new ArgumentNullException("Username parameter is null!");
+        if (string.IsNullOrEmpty(name)) throw new ArgumentNullException(nameof(name), "Username parameter is null!");
 
         if (persons.Any(p => p?.UserName == name) == false)
             throw new InvalidOperationException("No user is present by this username!");
@@ -56,7 +56,7 @@ public class ExtendedDatabase
 
     public Person FindById(long id)
     {
-        if (id < 0) throw new ArgumentOutOfRangeException("Id should be a positive number!");
+        if (id < 0) throw new ArgumentOutOfRangeException(nameof(id), "Id should be a positive number!");
 
         if (persons.Any(p => p?.Id == id) == false)
             throw new InvalidOperationException("No user is present by this ID!");

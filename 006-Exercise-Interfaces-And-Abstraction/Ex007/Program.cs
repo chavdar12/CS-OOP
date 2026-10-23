@@ -81,7 +81,14 @@ while (command != "End")
                 {
                 }
 
-            soldiers.Add(new Commando(id, firstName, lastName, salary, corp, missions));
+            try
+            {
+                soldiers.Add(new Commando(id, firstName, lastName, salary, corp, missions));
+            }
+            catch (ArgumentException)
+            {
+            }
+
             break;
         }
         case nameof(Spy):

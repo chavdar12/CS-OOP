@@ -5,7 +5,7 @@ public class AddRemoveCollection : CustomCollection, IRemove
     public virtual string Remove()
     {
         var element = Data[^1];
-        Data.Remove(element);
+        Data.RemoveAt(Data.Count - 1);
 
         return element;
     }

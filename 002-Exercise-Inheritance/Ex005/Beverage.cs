@@ -7,5 +7,5 @@ public class Beverage : Product
         Milliliters = milliliters;
     }
 
-    private double Milliliters { get; set; }
+    public double Milliliters { get; }
 }

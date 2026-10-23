@@ -1,8 +1,6 @@
-﻿using Ex001;
-using Ex002;
-using Dog = Ex002.Dog;
+﻿using Ex002;
 
 var puppy = new Puppy();
-Animal.Eat();
-Dog.Bark();
-Puppy.Weep();
+puppy.Eat();
+puppy.Bark();
+puppy.Weep();

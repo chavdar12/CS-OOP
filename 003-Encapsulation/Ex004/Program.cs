@@ -1,20 +1,17 @@
 ﻿using Ex004;
 
 var lines = int.Parse(Console.ReadLine());
-var persons = new List<Person>();
-
 var team = new Team("SoftUni");
+
 for (var i = 0; i < lines; i++)
-{
-    var personArguments = Console.ReadLine()
-        .Split()
-        .ToArray();
+    try
+    {
+        var cmdArgs = Console.ReadLine().Split();
+        team.AddPlayer(new Person(cmdArgs[0], cmdArgs[1], int.Parse(cmdArgs[2]), decimal.Parse(cmdArgs[3])));
+    }
+    catch (ArgumentException ex)
+    {
+        Console.WriteLine(ex.Message);
+    }
 
-    var firstName = personArguments[0];
-    var lastName = personArguments[1];
-    var age = int.Parse(personArguments[2]);
-    var salary = decimal.Parse(personArguments[3]);
-}
-
-foreach (var person in persons) team.AddPlayer(person);
 Console.WriteLine(team);

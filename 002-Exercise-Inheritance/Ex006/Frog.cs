@@ -8,6 +8,6 @@ public class Frog : Animal
 
     protected override string ProduceSound()
     {
-        return "Rabbit";
+        return "Ribbit";
     }
 }

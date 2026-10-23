@@ -8,10 +8,8 @@ public class WarriorTests
     {
         player = new Warrior("Ragnar", 25, 100);
         enemy = new Warrior("Spartacus", 15, 100);
-        minAttackHP = 30;
     }
 
-    private int minAttackHP;
     private Warrior player;
     private Warrior enemy;
 

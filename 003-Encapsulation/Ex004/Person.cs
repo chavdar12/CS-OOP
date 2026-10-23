@@ -1,13 +1,13 @@
 ﻿namespace Ex004;
 
-public abstract class Person
+public class Person
 {
     private readonly int age;
     private readonly string firstName;
     private readonly string lastName;
     private decimal salary;
 
-    protected Person(string firstName, string lastName, int age, decimal salary)
+    public Person(string firstName, string lastName, int age, decimal salary)
     {
         FirstName = firstName;
         LastName = lastName;
@@ -57,10 +57,10 @@ public abstract class Person
 
     public void IncreaseSalary(decimal percentage)
     {
-        if (Age > 30)
-            Salary += Salary * percentage / 100;
-        else
+        if (Age < 30)
             Salary += Salary * percentage / 200;
+        else
+            Salary += Salary * percentage / 100;
     }
 
     public override string ToString()

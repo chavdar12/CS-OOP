@@ -8,5 +8,5 @@ public class Dessert : Food
         Calories = calories;
     }
 
-    private double Calories { get; set; }
+    public double Calories { get; }
 }

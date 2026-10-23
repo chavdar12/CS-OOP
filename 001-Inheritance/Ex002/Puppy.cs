@@ -2,7 +2,7 @@
 
 public class Puppy : Dog
 {
-    public static void Weep()
+    public void Weep()
     {
         Console.WriteLine("weeping...");
     }

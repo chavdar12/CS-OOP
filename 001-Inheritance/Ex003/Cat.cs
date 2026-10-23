@@ -2,7 +2,7 @@
 
 public class Cat : Animal
 {
-    public static void Meow()
+    public void Meow()
     {
         Console.WriteLine("meowing...");
     }

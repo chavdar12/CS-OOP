@@ -5,8 +5,6 @@ namespace Ex007.Models;
 
 public class LieutenantGeneral : Private, ILieutenantGeneral
 {
-    private IList<Private> privates;
-
     public LieutenantGeneral(string id, string firstName, string lastName, decimal salary, IList<Private> privates)
         : base(id, firstName, lastName, salary)
     {

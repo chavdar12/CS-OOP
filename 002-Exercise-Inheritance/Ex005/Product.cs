@@ -8,6 +8,6 @@ public class Product
         Price = price;
     }
 
-    private string Name { get; set; }
-    private decimal Price { get; set; }
+    public string Name { get; }
+    public decimal Price { get; }
 }

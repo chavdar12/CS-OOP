@@ -1,0 +1,92 @@
+<Solution>
+  <Folder Name="/001-Inheritance/">
+    <Project Path="001-Inheritance/Ex001/Ex001.csproj" />
+    <Project Path="001-Inheritance/Ex002/Ex002.csproj" />
+    <Project Path="001-Inheritance/Ex003/Ex003.csproj" />
+    <Project Path="001-Inheritance/Ex004/Ex004.csproj" />
+    <Project Path="001-Inheritance/Ex005/Ex005.csproj" />
+    <Project Path="001-Inheritance/InheritanceTests/InheritanceTests.csproj" />
+  </Folder>
+  <Folder Name="/002-Exercise-Inheritance/">
+    <Project Path="002-Exercise-Inheritance/Ex001/Ex001.csproj" />
+    <Project Path="002-Exercise-Inheritance/Ex002/Ex002.csproj" />
+    <Project Path="002-Exercise-Inheritance/Ex003/Ex003.csproj" />
+    <Project Path="002-Exercise-Inheritance/Ex004/Ex004.csproj" />
+    <Project Path="002-Exercise-Inheritance/Ex005/Ex005.csproj" />
+    <Project Path="002-Exercise-Inheritance/Ex006/Ex006.csproj" />
+    <Project Path="002-Exercise-Inheritance/ExerciseInheritanceTests/ExerciseInheritanceTests.csproj" />
+  </Folder>
+  <Folder Name="/003-Encapsulation/">
+    <Project Path="003-Encapsulation/EncapsulationTests/EncapsulationTests.csproj" />
+    <Project Path="003-Encapsulation/Ex001/Ex001.csproj" />
+    <Project Path="003-Encapsulation/Ex002/Ex002.csproj" />
+    <Project Path="003-Encapsulation/Ex003/Ex003.csproj" />
+    <Project Path="003-Encapsulation/Ex004/Ex004.csproj" />
+  </Folder>
+  <Folder Name="/004-Exercise-Encapsulation/">
+    <Project Path="004-Exercise-Encapsulation/Ex001/Ex001.csproj" />
+    <Project Path="004-Exercise-Encapsulation/Ex002/Ex002.csproj" />
+    <Project Path="004-Exercise-Encapsulation/Ex003/Ex003.csproj" />
+    <Project Path="004-Exercise-Encapsulation/Ex004/Ex004.csproj" />
+    <Project Path="004-Exercise-Encapsulation/Ex005/Ex005.csproj" />
+    <Project Path="004-Exercise-Encapsulation/ExerciseEncapsulationTests/ExerciseEncapsulationTests.csproj" />
+  </Folder>
+  <Folder Name="/005-Interfaces-And-Abstraction/">
+    <Project Path="005-Interfaces-And-Abstraction/Ex001/Ex001.csproj" />
+    <Project Path="005-Interfaces-And-Abstraction/Ex002/Ex002.csproj" />
+    <Project Path="005-Interfaces-And-Abstraction/InterfacesAndAbstractionTests/InterfacesAndAbstractionTests.csproj" />
+  </Folder>
+  <Folder Name="/006-Exercise-Interfaces-And-Abstraction/">
+    <Project Path="006-Exercise-Interfaces-And-Abstraction/Ex001/Ex001.csproj" />
+    <Project Path="006-Exercise-Interfaces-And-Abstraction/Ex002/Ex002.csproj" />
+    <Project Path="006-Exercise-Interfaces-And-Abstraction/Ex003/Ex003.csproj" />
+    <Project Path="006-Exercise-Interfaces-And-Abstraction/Ex004/Ex004.csproj" />
+    <Project Path="006-Exercise-Interfaces-And-Abstraction/Ex005/Ex005.csproj" />
+    <Project Path="006-Exercise-Interfaces-And-Abstraction/Ex006/Ex006.csproj" />
+    <Project Path="006-Exercise-Interfaces-And-Abstraction/Ex007/Ex007.csproj" />
+    <Project Path="006-Exercise-Interfaces-And-Abstraction/Ex008/Ex008.csproj" />
+    <Project Path="006-Exercise-Interfaces-And-Abstraction/Ex009/Ex009.csproj" />
+    <Project Path="006-Exercise-Interfaces-And-Abstraction/ExerciseInterfacesAndAbstractionTests/ExerciseInterfacesAndAbstractionTests.csproj" />
+  </Folder>
+  <Folder Name="/007-Polymorphism/">
+    <Project Path="007-Polymorphism/Ex001/Ex001.csproj" />
+    <Project Path="007-Polymorphism/Ex002/Ex002.csproj" />
+    <Project Path="007-Polymorphism/Ex003/Ex003.csproj" />
+    <Project Path="007-Polymorphism/PolymorphismTests/PolymorphismTests.csproj" />
+  </Folder>
+  <Folder Name="/008-Exercise-Polymorphism/">
+    <Project Path="008-Exercise-Polymorphism/Ex001/Ex001.csproj" />
+    <Project Path="008-Exercise-Polymorphism/Ex002/Ex002.csproj" />
+    <Project Path="008-Exercise-Polymorphism/Ex003/Ex003.csproj" />
+    <Project Path="008-Exercise-Polymorphism/Ex004/Ex004.csproj" />
+    <Project Path="008-Exercise-Polymorphism/ExercisePolymorphismTests/ExercisePolymorphismTests.csproj" />
+  </Folder>
+  <Folder Name="/009-Reflection-And-Attributes/">
+    <Project Path="009-Reflection-And-Attributes/Ex001/Ex001.csproj" />
+    <Project Path="009-Reflection-And-Attributes/Ex002/Ex002.csproj" />
+    <Project Path="009-Reflection-And-Attributes/Ex003/Ex003.csproj" />
+    <Project Path="009-Reflection-And-Attributes/Ex004/Ex004.csproj" />
+    <Project Path="009-Reflection-And-Attributes/Ex005/Ex005.csproj" />
+    <Project Path="009-Reflection-And-Attributes/Ex006/Ex006.csproj" />
+    <Project Path="009-Reflection-And-Attributes/ReflectionAndAttributesTests/ReflectionAndAttributesTests.csproj" />
+  </Folder>
+  <Folder Name="/010-Exercise-Reflection-And-Attributes/">
+    <Project Path="010-Exercise-Reflection-And-Attributes/Ex001/Ex001.csproj" />
+    <Project Path="010-Exercise-Reflection-And-Attributes/Ex002/Ex002.csproj" />
+    <Project Path="010-Exercise-Reflection-And-Attributes/ExerciseReflectionAndAttributesTests/ExerciseReflectionAndAttributesTests.csproj" />
+  </Folder>
+  <Folder Name="/011-Unit-Testing/">
+    <Project Path="011-Unit-Testing/Ex001/Ex001.csproj" />
+    <Project Path="011-Unit-Testing/Ex001Tests/Ex001Tests.csproj" />
+  </Folder>
+  <Folder Name="/012-Exercise-Unit-Testing/">
+    <Project Path="012-Exercise-Unit-Testing/Ex001/Ex001.csproj" />
+    <Project Path="012-Exercise-Unit-Testing/Ex001Tests/Ex001Tests.csproj" />
+    <Project Path="012-Exercise-Unit-Testing/Ex002/Ex002.csproj" />
+    <Project Path="012-Exercise-Unit-Testing/Ex002Tests/Ex002Tests.csproj" />
+    <Project Path="012-Exercise-Unit-Testing/Ex003/Ex003.csproj" />
+    <Project Path="012-Exercise-Unit-Testing/Ex003Tests/Ex003Tests.csproj" />
+    <Project Path="012-Exercise-Unit-Testing/Ex004/Ex004.csproj" />
+    <Project Path="012-Exercise-Unit-Testing/Ex004Tests/Ex004Tests.csproj" />
+  </Folder>
+</Solution>

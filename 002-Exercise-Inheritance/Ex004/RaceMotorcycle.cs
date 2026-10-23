@@ -8,5 +8,5 @@ public class RaceMotorcycle : Motorcycle
     {
     }
 
-    protected override double FuelConsumption => DefaultFuelConsumption;
+    public override double FuelConsumption => DefaultFuelConsumption;
 }

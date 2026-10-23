@@ -16,7 +16,7 @@ public class Spy
             sb.AppendLine($"{method.Name} will return {method.ReturnType}");
 
         foreach (var method in methods.Where(x => x.Name.StartsWith("set")))
-            sb.AppendLine($"{method.Name} will set field of {method.ReturnParameter}");
+            sb.AppendLine($"{method.Name} will set field of {method.GetParameters()[0].ParameterType}");
 
         return sb.ToString().TrimEnd();
     }

@@ -2,7 +2,7 @@
 
 public class Dog : Animal
 {
-    public static void Bark()
+    public void Bark()
     {
         Console.WriteLine("barking...");
     }

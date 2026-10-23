@@ -57,10 +57,10 @@ public class Person
 
     public void IncreaseSalary(decimal percentage)
     {
-        if (Age > 30)
-            Salary += Salary * percentage / 100;
-        else
+        if (Age < 30)
             Salary += Salary * percentage / 200;
+        else
+            Salary += Salary * percentage / 100;
     }
 
     public override string ToString()

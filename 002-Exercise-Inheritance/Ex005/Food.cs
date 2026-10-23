@@ -8,5 +8,5 @@ public class Food : Product
         Grams = grams;
     }
 
-    private double Grams { get; set; }
+    public double Grams { get; }
 }

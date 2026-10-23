@@ -5,8 +5,6 @@ namespace Ex007.Models;
 
 public class Engineer : SpecialisedSoldier, IEngineer
 {
-    private ICollection<Repair> repairs;
-
     public Engineer(string id, string firstName, string lastName, decimal salary, string corps, IList<Repair> repairs)
         : base(id, firstName, lastName, salary, corps)
     {

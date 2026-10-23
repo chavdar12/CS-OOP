@@ -13,10 +13,11 @@ public class Engine : IEngine
 
     public void Run()
     {
-        while (true)
+        string input;
+
+        while ((input = Console.ReadLine()) != null)
             try
             {
-                var input = Console.ReadLine();
                 var result = commandInterpreter.Read(input);
                 Console.WriteLine(result);
             }

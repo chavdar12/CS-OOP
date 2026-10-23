@@ -11,5 +11,5 @@ public class Coffee : HotBeverage
         Caffeine = caffeine;
     }
 
-    private double Caffeine { get; set; }
+    public double Caffeine { get; }
 }

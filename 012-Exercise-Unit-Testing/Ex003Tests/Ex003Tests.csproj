@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../Ex003/Ex003.csproj" />
+  </ItemGroup>
+</Project>

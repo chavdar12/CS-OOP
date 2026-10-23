@@ -8,12 +8,11 @@ public class Vehicle
     {
         HorsePower = horsePower;
         Fuel = fuel;
-        FuelConsumption = DefaultFuelConsumption;
     }
 
-    protected virtual double FuelConsumption { get; set; }
-    private double Fuel { get; set; }
-    private int HorsePower { get; set; }
+    public virtual double FuelConsumption => DefaultFuelConsumption;
+    public double Fuel { get; private set; }
+    public int HorsePower { get; }
 
     public virtual void Drive(double kilometers)
     {
